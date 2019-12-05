@@ -14,7 +14,7 @@ How to use?
 
 
 Project Architecture
-1. index.js - wrapper above the complete process that exposes getEligibleCustomerList
+1. index.js - wrapper above the complete process that exposes getEligibleCustomerList (starting point of the app)
 2. customer.js - gets Data and calls distance calculator to process desired result
 3. distanceCalculator.js - performs searching algo on the basis of distance. Conversion of degrees to radians is done here.
 4. constant.js - stores application constants
